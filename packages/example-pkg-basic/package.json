@@ -1,20 +1,18 @@
 {
-  "name": "@rush-monorepo/example-pkg-basic",
-  "version": "0.1.0",
-  "license": "MIT",
-  "main": "build/index.js",
-  "typings": "build/index.d.ts",
+  "name": "sentiment-analysis",
+  "version": "1.0.0",
+  "description": "Sentiment Analysis api for feelin app",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "tsc --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "@rush-monorepo/eslint-config": "workspace:*",
-    "@rush-monorepo/prettier-config": "workspace:*",
-    "@types/node": "^16",
-    "eslint": "^8",
-    "prettier": "^2.2",
-    "typescript": "^4"
-  },
-  "peerDependencies": {}
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.7.5",
+    "sentiment": "^5.0.1",
+    "socket.io": "^2.4.0",
+    "fast-xml-parser": "3.19.0"
+  }
 }
