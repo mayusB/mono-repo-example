@@ -17,7 +17,6 @@ jobs:
     runs-on: ubuntu-20.04
     env:
       SEMGREP_APP_TOKEN: ${{ secrets.SEMGREP_APP_TOKEN }}
-      SEMGREP_GHA_MIN_FETCH_DEPTH: 10
     container:
       image: returntocorp/semgrep
     steps:
