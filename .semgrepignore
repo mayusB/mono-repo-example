@@ -1,5 +1,3 @@
-# semgrep vuln folder
-
-semgrep/
+semgrep/example/block_findings/command_injection_flask.py
 
 rush.json
