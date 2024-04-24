@@ -121,5 +121,3 @@ def direct_response():
     commands.getoutput(tainted)
     # ruleid: tainted-os-command-stdlib-flask
     commands.getstatusoutput(tainted)
-
-    # hello
