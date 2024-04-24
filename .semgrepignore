@@ -1,3 +1,5 @@
 semgrep/example/block_findings/command_injection_flask.py
 
 rush.json
+
+file_demo.js
