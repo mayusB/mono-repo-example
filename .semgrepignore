@@ -1,3 +1,5 @@
+semgrep/example/**
+
 rush.json
 
 file_demo.js
