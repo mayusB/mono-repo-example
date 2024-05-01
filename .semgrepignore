@@ -1,4 +1,4 @@
-semgrep/example/block_findings/command_injection_flask.py
+semgrep/example/**
 
 rush.json
 
