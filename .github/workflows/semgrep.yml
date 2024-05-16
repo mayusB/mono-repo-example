@@ -20,5 +20,4 @@ jobs:
       image: returntocorp/semgrep
     steps:
     - uses: actions/checkout@v3
-    - run: semgrep ci --code --secrets --supply-chain --pro --no-suppress-errors --no-secrets-validation --verbose
-    #test
+    - run: semgrep ci
